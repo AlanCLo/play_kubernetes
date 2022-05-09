@@ -1,0 +1,8 @@
+---
+# Apply only. No need to delete
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    istio-injection: enabled
+  name: default
